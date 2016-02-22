@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="About PitchScope Player">
+			<param name="Local" value="About_Pitchscope_Player.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Other Products">
+			<param name="Local" value="Other_PitchScope_Products.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tutorials">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Detecting Notes While Playing a Song">
+			<param name="Local" value="Detect_Play_Song_tutorial.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menu Commands">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Open Music File">
+			<param name="Local" value="Open_Music_File_menu.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Open NoteList File">
+			<param name="Local" value="Open_NoteList_File_menu.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Help Topics">
+			<param name="Local" value="Help_Topics_menu.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Control Panel">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Music Volume Slider">
+			<param name="Local" value="Music_Volume_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Midi Volume Slider">
+			<param name="Local" value="Midi_Volume_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mute Midi CheckBox ">
+			<param name="Local" value="Mute_Midi_CheckBox .htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Midi Instrument Spin Control">
+			<param name="Local" value="Midi_Instrument_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Midi Source Radio Buttons">
+			<param name="Local" value="Midi_Source_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Midi Advance Slider">
+			<param name="Local" value="Midi_Advance_Slider.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Transport Controls">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="File Position Slider">
+				<param name="Local" value="File_Position_Slider_control.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Forward Button">
+				<param name="Local" value="Play_Forward_button.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pause Play Button">
+				<param name="Local" value="Pause_Play_button.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Play Backwards Button">
+				<param name="Local" value="Play_Backward_button.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Files Start Button">
+				<param name="Local" value="Files_Start_button.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Files End Button">
+				<param name="Local" value="Files_End_button.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Note Detection Controls">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Response Slider">
+				<param name="Local" value="Response_Slider_control.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Detail Slider">
+				<param name="Local" value="Detail_Slider_control.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Boost Source CheckBox">
+				<param name="Local" value="Boost_Source_control.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Stereo Channels Slider">
+				<param name="Local" value="Stereo_Channel_control.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Screen Shots">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Control Panel Diagram">
+			<param name="Local" value="Control_Panel_1.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

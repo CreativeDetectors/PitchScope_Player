@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{72EEBE47-6AF9-417F-A535-539B724E998B}</ProjectGuid>
+    <RootNamespace>PitchPlayer</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4345;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;dsoundJM.lib;dxguidJM.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\JamesM\aBBvsProgs\FullTree\Src\LIBS;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4345;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;dsoundJM.lib;dxguidJM.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\JamesM\aBBvsProgs\FullTree\Src\LIBS;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\comnAudio\AudioPlayer.cpp" />
+    <ClCompile Include="..\comnAudio\AudioPlayerStreaming.cpp" />
+    <ClCompile Include="..\comnAudio\BitSourceAudio.cpp" />
+    <ClCompile Include="..\comnAudio\BitSourceStreaming.cpp" />
+    <ClCompile Include="..\comnCatalog\CalcedNoteExternal.cpp" />
+    <ClCompile Include="..\comnAudio\CalcNote.cpp" />
+    <ClCompile Include="..\comnGrafix\CommonGrafix.cpp" />
+    <ClCompile Include="..\comnInterface\DetectorAbstracts.cpp" />
+    <ClCompile Include="..\comnAudio\DFTtransforms.cpp" />
+    <ClCompile Include="dlgAboutBoxRelease.cpp" />
+    <ClCompile Include="..\comnAudio\EventMan.cpp" />
+    <ClCompile Include="..\comnCatalog\External.cpp" />
+    <ClCompile Include="..\comnAudio\FFTslowDown.cpp" />
+    <ClCompile Include="..\comnMisc\FileUni.cpp" />
+    <ClCompile Include="..\comnGrafix\FontsCd.cpp" />
+    <ClCompile Include="..\comnAudio\FundamentalCandidate.cpp" />
+    <ClCompile Include="..\comnAudio\FundCandidCalcer.cpp" />
+    <ClCompile Include="..\comnInterface\Gauge.cpp" />
+    <ClCompile Include="..\comnAudio\HarmPairsTrForm.cpp" />
+    <ClCompile Include="..\comnAudio\HarmPairsVerter.cpp" />
+    <ClCompile Include="..\comnGrafix\mapFilters.cpp" />
+    <ClCompile Include="..\comnAudio\Mp3Reader.cpp" />
+    <ClCompile Include="..\comnAudio\Mp3Reader2.cpp" />
+    <ClCompile Include="..\comnAudio\NoteGenerator.cpp" />
+    <ClCompile Include="..\comnGrafix\OffMap.cpp" />
+    <ClCompile Include="PitchPlayer.cpp" />
+    <ClCompile Include="..\comnFacade\PitchPlayerApp.cpp" />
+    <ClCompile Include="PitchPlayerDlg.cpp" />
+    <ClCompile Include="..\comnMisc\platformSpecific.cpp" />
+    <ClCompile Include="..\comnAudio\PlayBuffer.cpp" />
+    <ClCompile Include="..\comnAudio\ReSampler.cpp" />
+    <ClCompile Include="..\comnAudio\SequencerMidi.cpp" />
+    <ClCompile Include="SettingsDlg.cpp" />
+    <ClCompile Include="..\comnAudio\SndFilters.cpp" />
+    <ClCompile Include="..\comnAudio\SndSample.cpp" />
+    <ClCompile Include="..\comnFacade\SoundHelper.cpp" />
+    <ClCompile Include="..\comnAudio\SPitchCalc.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\comnGrafix\TransformMap.cpp" />
+    <ClCompile Include="..\comnAudio\WavConvert.cpp" />
+    <ClCompile Include="..\comnAudio\WaveJP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\comnAudio\AudioPlayer.h" />
+    <ClInclude Include="..\comnAudio\BitSourceAudio.h" />
+    <ClInclude Include="..\comnCatalog\CalcedNoteExternal.h" />
+    <ClInclude Include="..\comnAudio\CalcNote.h" />
+    <ClInclude Include="..\comnGrafix\commongrafix.h" />
+    <ClInclude Include="..\comnInterface\DetectorAbstracts.h" />
+    <ClInclude Include="..\comnAudio\DFTtransforms.h" />
+    <ClInclude Include="dlgAboutBoxRelease.h" />
+    <ClInclude Include="..\comnAudio\EventMan.h" />
+    <ClInclude Include="..\comnCatalog\External.h" />
+    <ClInclude Include="..\comnAudio\FFTslowDown.h" />
+    <ClInclude Include="..\comnMisc\FileUni.h" />
+    <ClInclude Include="..\comnGrafix\FontsCd.h" />
+    <ClInclude Include="..\comnAudio\FundamentalCandidate.h" />
+    <ClInclude Include="..\comnAudio\FundCandidCalcer.h" />
+    <ClInclude Include="..\comnInterface\Gauge.h" />
+    <ClInclude Include="..\comnAudio\HarmPairsTrForm.h" />
+    <ClInclude Include="..\comnAudio\HarmPairsVerter.h" />
+    <ClInclude Include="..\comnGrafix\mapFilters.h" />
+    <ClInclude Include="..\comnAudio\Mp3Decoder.h" />
+    <ClInclude Include="..\comnAudio\NoteGenerator.h" />
+    <ClInclude Include="..\comnGrafix\OffMap.h" />
+    <ClInclude Include="PitchPlayer.h" />
+    <ClInclude Include="..\comnFacade\PitchPlayerApp.h" />
+    <ClInclude Include="PitchPlayerDlg.h" />
+    <ClInclude Include="..\comnAudio\PlayBuffer.h" />
+    <ClInclude Include="..\comnMisc\PrintMan.h" />
+    <ClInclude Include="..\comnAudio\ReSampler.h" />
+    <CustomBuild Include="Resource.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating map file for help compiler...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo // Generated Help Map file.  Used by PitchPlayer.HHP. &gt; "hlp\HTMLDefines.h"
+echo. &gt; "hlp\HTMLDefines.h"
+echo // Commands (ID_* and IDM_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h ID_,HID_,0x10000 IDM_,HIDM_,0x10000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Prompts (IDP_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDP_,HIDP_,0x30000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Resources (IDR_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDR_,HIDR_,0x20000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Dialogs (IDD_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDD_,HIDD_,0x20000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Frame Controls (IDW_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h /a afxhh.h IDW_,HIDW_,0x50000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hlp\HTMLDefines.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating map file for help compiler...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo // Generated Help Map file.  Used by PitchPlayer.HHP. &gt; "hlp\HTMLDefines.h"
+echo. &gt; "hlp\HTMLDefines.h"
+echo // Commands (ID_* and IDM_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h ID_,HID_,0x10000 IDM_,HIDM_,0x10000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Prompts (IDP_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDP_,HIDP_,0x30000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Resources (IDR_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDR_,HIDR_,0x20000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Dialogs (IDD_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h IDD_,HIDD_,0x20000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+echo. &gt;&gt; "hlp\HTMLDefines.h"
+echo // Frame Controls (IDW_*) &gt;&gt; "hlp\HTMLDefines.h"
+makehm /h /a afxhh.h IDW_,HIDW_,0x50000 "%(Filename)%(Extension)" &gt;&gt; "hlp\HTMLDefines.h"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hlp\HTMLDefines.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\comnAudio\SequencerMidi.h" />
+    <ClInclude Include="SettingsDlg.h" />
+    <ClInclude Include="..\comnAudio\SndFilters.h" />
+    <ClInclude Include="..\comnAudio\SndSample.h" />
+    <ClInclude Include="..\comnFacade\SoundHelper.h" />
+    <ClInclude Include="..\comnAudio\SPitchCalc.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\comnGrafix\transformmap.h" />
+    <ClInclude Include="..\comnFacade\VoxAppsGlobals.h" />
+    <ClInclude Include="..\comnAudio\WavConvert.h" />
+    <ClInclude Include="..\comnAudio\WaveJP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\DialogsShared\bitmapPlayer_Font6.bmp" />
+    <None Include="..\DialogsShared\gotoFilesEnd.bmp" />
+    <None Include="..\DialogsShared\gotoFileStart.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="..\DialogsShared\pausePlay.bmp" />
+    <None Include="res\PitchPlayer.ico" />
+    <None Include="res\PitchPlayer.rc2" />
+    <None Include="..\DialogsShared\playBackwards.bmp" />
+    <None Include="..\DialogsShared\playForward.bmp" />
+    <None Include="hlp\PitchPlayer.hhc" />
+    <None Include="hlp\PitchPlayer.hhk" />
+    <CustomBuild Include="hlp\PitchPlayer.hhp">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Making help file...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">start /wait hhc "hlp\PitchPlayer.hhp"
+if not exist "hlp\PitchPlayer.chm" goto :HelpError
+copy "hlp\PitchPlayer.chm" "$(OutDir)PitchPlayer.chm"
+goto :HelpDone
+:HelpError
+echo hlp\PitchPlayer.hhp(1) : error:Problem encountered creating help file
+echo.
+:HelpDone
+echo.
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">hlp\HTMLDefines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)$(ProjectName).chm;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Making help file...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">start /wait hhc "hlp\PitchPlayer.hhp"
+if not exist "hlp\PitchPlayer.chm" goto :HelpError
+copy "hlp\PitchPlayer.chm" "$(OutDir)PitchPlayer.chm"
+goto :HelpDone
+:HelpError
+echo hlp\PitchPlayer.hhp(1) : error:Problem encountered creating help file
+echo.
+:HelpDone
+echo.
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hlp\HTMLDefines.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)$(ProjectName).chm;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="hlp\About_Pitchscope_Player.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PitchPlayer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PitchPlayer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

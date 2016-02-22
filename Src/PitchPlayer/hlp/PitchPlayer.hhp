@@ -1,0 +1,59 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=PitchPlayer.chm
+Contents file=PitchPlayer.hhc
+Default Window=mainPsP
+Default topic=About_Pitchscope_Player.htm
+Display compile progress=No
+Full text search stop list file=stoplist.stp
+Full-text search=Yes
+Index file=PitchPlayer.hhk
+Language=0x409 English (United States)
+Title=PitchScope Player Help Topics
+
+[WINDOWS]
+mainPsP="PitchScope Player Help Topics","PitchPlayer.hhc","PitchPlayer.hhk","About_Pitchscope_Player.htm",,,,,,0x43520,,0x3006,[30,20,630,420],,,,,,,0
+
+
+[FILES]
+Detect_Play_Song_tutorial.htm
+Open_Music_File_menu.htm
+Music_Volume_control.htm
+Play_Forward_button.htm
+Pause_Play_button.htm
+Midi_Volume_control.htm
+Response_Slider_control.htm
+Detail_Slider_control.htm
+Files_Start_button.htm
+Files_End_button.htm
+Play_Backward_button.htm
+File_Position_Slider_control.htm
+Open_NoteList_File_menu.htm
+Help_Topics_menu.htm
+About_Pitchscope_Player.htm
+Mute_Midi_CheckBox .htm
+Boost_Source_control.htm
+Stereo_Channel_control.htm
+Midi_Instrument_control.htm
+Midi_Source_control.htm
+Control_Panel_1.htm
+Other_PitchScope_Products.htm
+defNoiseNote.htm
+defTranscription.htm
+defNotelist.htm
+defMidi.htm
+Musical_Key_Detection.htm
+Midi_Advance_Slider.htm
+
+[ALIAS]
+HIDD_PITCHPLAYER_DIALOG=About_Pitchscope_Player.htm
+
+[MAP]
+#include HTMLDefines.h
+
+[TEXT POPUPS]
+HTMLDefines.h
+
+[INFOTYPES]
+

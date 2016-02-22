@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Detecting and Playing a Song - Tutorial</Title>
+</HEAD>
+<BODY>
+
+
+<B>Detecting Notes While Playing a Song - Tutorial</B>
+<BR>
+<BR>
+<BR>
+
+Before you start, you should select a few .MP3 or .WAV recordings that have dominant musical instrument solos. PitchScope products are only intended to detect musical instrumental solos, and have trouble with the human voice. Harmonically dense instruments like saxophones, electric guitars, blues harmonicas, and clarinets are the best for note detection. Harmonically sparse instruments, like a flute, can be difficult to detect. 
+<BR><BR>    
+
+From the File Menu, select the<I> Open Music File </I>command. Then with the Open Files dialog box, navigate to a .MP3 or .WAV music file, and mouse-click on the Open Button. You will then see the name of that .MP3 or .WAV file in PitchScope Player's Title Bar. Since PitchScope products are only intended to detect notes from musical instrument solos, use the <I>File Slider Control </I>to move the current play point to an instrumental solo within the song. Press the <I>Play Forward Button </I>and you will hear the music play, and at the same time Player's Note Detector is spontaneously detecting and playing the notes it <I>finds </I>in the music. As you hear the detected MidiNotes being played through Windows' internal Midi Synthesizer, notice how the notes are also being <I>animated </I>in a circle upon the Revolver Animation View.
+<BR><BR><BR>
+
+
+<img src="bitmaps\Detection_Control_Group.gif"  width="133"   height="324">   
+
+<BR>
+<BR>
+
+
+
+
+
+Doing a good note detection requires that the user carefully adjust the Note Detection Controls. This is similar to how one might adjust the <I>focus </I>on a telescope to get the best possible image. The most important control to adjust is the<I> Response Slider</I>. Moving that slider control upward increases the <I>sensitivity </I>of the Note Detector. The Response Slider can be used to eliminate notes with a <I>poor detection value </I>(NoiseNotes), or to increase the amount of total notes detected. A very low setting will eliminate too many valid notes, and a very high setting will not eliminate enough short erroneous NoiseNotes. Users will want to experiment with this control during realtime note detection to find the best setting that includes the important valid notes, while only allowing a small amount of NoiseNotes. The Response Slider is a very sensitive control. Whenever a new song is loaded it resets to its default position of 70. Most of the time you will only need to move it in the range of 60 to 80. Experiment with small moves and<I> wait several seconds </I>to evaluate the results.
+<BR><BR>
+
+Another important detection control is the <I>Detail Slider</I>. It is used to control the minimum length of the shortest notes during detection. A high numeric setting upon this control will create too many short fragmented NoiseNotes, and a low setting will create very long notes and miss the shorter notes in the music. Users will want to experiment with this control during realtime note detection to find the best setting that gives notes their proper length without creating too many short NoiseNotes. The Detail Slider is also a very sensitive control.  Whenever a new song is loaded it resets to its default position of 82. Most of the time you will only need to move it in the range of 66 to 90. Experiment with small moves and <I>wait several seconds </I>to examine the results.
+
+  
+<BR><BR>
+
+For songs or instruments with low volume, mouse-click on the <I>Boost Source </I>check box to increase, or amplify, the effect of the Response Slider Control.
+<BR><BR>
+
+Most recordings have their instrumental solos balanced in the center of left and right stereo channels. However if your recording seems to have the instrumental solo dominant in either the left or right stereo channel, you may want to adjust the <I>Stereo Channels </I>slider control. As the slider is moved about you should at some point hear the instrument the most clearly -- that is your best setting. However since most recordings balance the solo instruments in the center, you should not have to use this control very often. We typically get our best note detentions by leaving the Stereo Channels slider untouched in its center position.
+
+<BR><BR><BR>
+
+
+
+<img src="bitmaps\Midi_Instrument_ctrl.gif"  width="221"   height="54">   
+<BR><BR>
+
+The Midi Instrument that is playing can be changed by mouse-clicking on the arrows of the <I>Midi Instrument Spin Control</I>. And if you wish to only hear the recording and NOT the Midi Notes, mouse-click on <I>Mute Midi </I>check box. 
+<BR><BR>
+
+
+
+The volume of the Music File and the volume of the Midi Notes can be independently controlled with the <I>Music Volume </I>and <I>Midi Volume </I>controls.  
+<BR><BR>
+
+
+As a new song plays, Player will attempt to calculate the Musical Key of the song after about a minute. You will see the <I>Root Note </I>of the new Musical Key displayed  in the bottom-most position of the Revolver Animation's circle of notes.  ( Example: If the song is in the key of 'C', after about a minute you will see the Revolver Animation change its configuration and place the 'C' note at the bottom of its circle ).
+<BR><BR>
+<BR>
+
+
+<img src="bitmaps\Midi_Advance_ctrl.gif"  width="195"   height="62">   
+<BR><BR>
+
+Dependent on the speed of your computer and the speed of your Midi device, you may hear that the Recording and the Midi Notes are slightly out of <I>synchronization</I>. You can correct this by adjusting the Midi Advance Slider control. Increasing the value on this control will cause the Midi Notes to be played <I>earlier </I>in time than the musical recording. This can be a difficult control to adjust. Make<I> small moves </I>and <I>wait a minute </I>before deciding if the setting is better or worse.
+
+<BR><BR>
+<BR>
+
+*  *  * *
+
+<BR>
+
+
+
+Take some time to play many songs with instrumental solos as you experiment with the Note Detection Controls mentioned in this tutorial. Even with a computer, accurate note detection is still more of an art than a science. As they say, <I>practice makes perfect</I>.
+<BR>
+
+If you are intrigued by the abilities of Player, you might want to upgrade and purchase <B>PitchScope Navigator</B>. Navigator is a full-featured automatic transcription application which can also <I>create </I> and <I>save </I>Notelist Files from realtime note-detection sessions. Navigator can also detect notes at different Slowed-Down Speeds, which play the music more slowly while maintaining the instrument's original pitch. Read more about PitchScope Navigator in the topic called <I>Other PitchScope Products</I>.   
+
+ 
+<BR><BR>
+<BR><BR>
+
+
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="musical key detection">
+		<param name="Name" value="Musical Key Detection">
+		<param name="Local" value="Musical_Key_Detection.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="register player">
+		<param name="Name" value="About PitchScope Player">
+		<param name="Local" value="About_Pitchscope_Player.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="stereo channels">
+		<param name="See Also" value="stereo channels">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="focusing the mix">
+			<param name="Name" value="Stereo Channels Slider Control">
+			<param name="Local" value="Stereo_Channel_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="stereo balance in note detection">
+			<param name="Name" value="Detecting and Playing a Song - Tutorial">
+			<param name="Local" value="Detect_Play_Song_tutorial.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="transport controls">
+		<param name="Name" value="File Position Slider Control">
+		<param name="Local" value="File_Position_Slider_control.htm">
+		<param name="Name" value="Files Start Button">
+		<param name="Local" value="Files_Start_button.htm">
+		<param name="Name" value="Files End Button">
+		<param name="Local" value="Files_End_button.htm">
+		<param name="Name" value="Play Forward Button">
+		<param name="Local" value="Play_Forward_button.htm">
+		<param name="Name" value="Play Backwards Button">
+		<param name="Local" value="Play_Backward_button.htm">
+		<param name="Name" value="Pause Play Button">
+		<param name="Local" value="Pause_Play_button.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="vocals">
+		<param name="Name" value="Detecting and Playing a Song - Tutorial">
+		<param name="Local" value="Detect_Play_Song_tutorial.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tutorials">
+		<param name="Name" value="Detecting and Playing a Song - Tutorial">
+		<param name="Local" value="Detect_Play_Song_tutorial.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="company">
+		<param name="Name" value="About PitchScope Player">
+		<param name="Local" value="About_Pitchscope_Player.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="control panel ">
+		<param name="Name" value="Control Panel Diagram">
+		<param name="Local" value="Control_Panel_1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Navigator">
+		<param name="Name" value="Other PitchScope Products">
+		<param name="Local" value="Other_PitchScope_Products.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="copyright">
+		<param name="Name" value="About PitchScope Player">
+		<param name="Local" value="About_Pitchscope_Player.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="harmonic">
+		<param name="Name" value="Detecting and Playing a Song - Tutorial">
+		<param name="Local" value="Detect_Play_Song_tutorial.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="notelists">
+		<param name="See Also" value="notelists">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="notelist definition">
+			<param name="Name" value="Notelist Definition">
+			<param name="Local" value="defNotelist.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="playing notelists">
+			<param name="Name" value="Midi Source Radio Buttons">
+			<param name="Local" value="Midi_Source_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="creating notelists">
+			<param name="Name" value="Other PitchScope Products">
+			<param name="Local" value="Other_PitchScope_Products.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(see also transcription)">
+			<param name="See Also" value="transcription">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="loading notelist files">
+			<param name="Name" value="Open NoteList File  -  Menu Command">
+			<param name="Local" value="Open_NoteList_File_menu.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="transcription">
+		<param name="Name" value="Transcription Definition">
+		<param name="Local" value="defTranscription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="shareware">
+		<param name="Name" value="About PitchScope Player">
+		<param name="Local" value="About_Pitchscope_Player.htm">
+		<param name="Name" value="Other PitchScope Products">
+		<param name="Local" value="Other_PitchScope_Products.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="midi">
+		<param name="See Also" value="midi">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="midi advance">
+			<param name="Name" value="Midi Advance Slider">
+			<param name="Local" value="Midi_Advance_Slider.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="midi source">
+			<param name="Name" value="Midi Source Radio Buttons">
+			<param name="Local" value="Midi_Source_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(see also synthesizer)">
+			<param name="See Also" value="synthesizer">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="midi instrument">
+			<param name="Name" value="Midi Instrument Spin Control">
+			<param name="Local" value="Midi_Instrument_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="midi definition">
+			<param name="Name" value="Midi Definition">
+			<param name="Local" value="defMidi.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="files">
+		<param name="See Also" value="files">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="mp3 file">
+			<param name="Name" value="Open Music File  -  Menu Command">
+			<param name="Local" value="Open_Music_File_menu.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="wav file">
+			<param name="Name" value="Open Music File  -  Menu Command">
+			<param name="Local" value="Open_Music_File_menu.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="notelist file">
+			<param name="Name" value="Open NoteList File  -  Menu Command">
+			<param name="Local" value="Open_NoteList_File_menu.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="file position">
+			<param name="Name" value="File Position Slider Control">
+			<param name="Local" value="File_Position_Slider_control.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="detection">
+		<param name="See Also" value="detection">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="detection controls">
+			<param name="Name" value="Response Slider Control">
+			<param name="Local" value="Response_Slider_control.htm">
+			<param name="Name" value="Detail Slider Control">
+			<param name="Local" value="Detail_Slider_control.htm">
+			<param name="Name" value="Boost Source CheckBox Control">
+			<param name="Local" value="Boost_Source_control.htm">
+			<param name="Name" value="Stereo Channels Slider Control">
+			<param name="Local" value="Stereo_Channel_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="sensitivity">
+			<param name="Name" value="Response Slider Control">
+			<param name="Local" value="Response_Slider_control.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(see also noisenote)">
+			<param name="See Also" value="noisenote">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="note detection">
+			<param name="Name" value="Detecting and Playing a Song - Tutorial">
+			<param name="Local" value="Detect_Play_Song_tutorial.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="(see also transcription)">
+			<param name="See Also" value="transcription">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="noisenote">
+		<param name="See Also" value="noisenote">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="noisenote definition">
+			<param name="Name" value="NoiseNote Definition">
+			<param name="Local" value="defNoiseNote.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="noisenote reduction">
+			<param name="Name" value="Detecting and Playing a Song - Tutorial">
+			<param name="Local" value="Detect_Play_Song_tutorial.htm">
+			<param name="Name" value="Response Slider Control">
+			<param name="Local" value="Response_Slider_control.htm">
+			<param name="Name" value="Detail Slider Control">
+			<param name="Local" value="Detail_Slider_control.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="wav">
+		<param name="Name" value="Open Music File  -  Menu Command">
+		<param name="Local" value="Open_Music_File_menu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="mp3">
+		<param name="Name" value="Open Music File  -  Menu Command">
+		<param name="Local" value="Open_Music_File_menu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="synthesizer">
+		<param name="Name" value="Midi Instrument Spin Control">
+		<param name="Local" value="Midi_Instrument_control.htm">
+		<param name="Name" value="Midi Definition">
+		<param name="Local" value="defMidi.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

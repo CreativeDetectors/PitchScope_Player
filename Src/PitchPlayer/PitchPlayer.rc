@@ -1,0 +1,326 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\PitchPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\icon1.ico"
+IDI_PsPLAYER_ALT_ICON   ICON                    "res\\PitchPlayer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 319, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PitchScope Player"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "PitchScope Player    Version 1.2",IDC_STATIC,64,7,182,8,SS_NOPREFIX
+    CTEXT           "Copyright  (C) 2012    Creative Detectors",IDC_STATIC,89,151,132,8
+    DEFPUSHBUTTON   "OK",IDOK,280,2,32,14,WS_GROUP
+    LTEXT           "This computer program is protected by copyright laws and international treaties.",IDC_STATIC,16,206,286,16
+    CTEXT           "PO Box  395",IDC_STATIC,88,161,131,8
+    CTEXT           "Clearlake, CA  95422-0395",IDC_STATIC,92,170,128,8
+    CTEXT           "www.CreativeDetectors.com",IDC_STATIC,88,184,133,8
+    LTEXT           "PitchScope Player is a shareware application designed to demonstrate some of the pitch-detecting and musical transcription capabilities of our flagship product, PitchScope Navigator.",IDC_STATIC,16,23,284,34
+    LTEXT           "Notelists can be modified in a graphic editor, printed out, played at various speeds via Windows Midi Synthesizer, and can be saved and reloaded from hard disk. For more information about PitchScope products, go to  www.CreativeDetectors.com",IDC_STATIC,16,87,289,25
+    LTEXT           "PitchScope Navigator can also play and note-detect songs at various Slowed-Down Speeds, which increases the detail and accuracy of note detection. Navigator can also create NoteLists and has enhanced animation displays that show upcoming notes.",IDC_STATIC,16,54,284,26
+    LTEXT           "PitchScope Player was designed and built by James Paul Millard (dba Creative Detectors of California).",IDC_STATIC,15,121,282,17
+END
+
+IDD_PITCHPLAYER_DIALOG DIALOGEX 0, 0, 274, 261
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "PitchScope Player"
+MENU IDR_MAIN_DIALOGS_MENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "pap",IDC_PAUSE_BUTTON,"Button",BS_OWNERDRAW | WS_TABSTOP,43,4,9,10
+    CONTROL         "pyf",IDC_CONTINUE_PLAY_BUTTON,"Button",BS_OWNERDRAW | WS_TABSTOP,57,4,9,10
+    CONTROL         "pyb",IDC_REVERSE_PLAY_BUTTON,"Button",BS_OWNERDRAW | WS_TABSTOP,29,4,9,10
+    CONTROL         "gfs",IDC_GO_FILESTART_BUTTON,"Button",BS_OWNERDRAW | WS_TABSTOP,8,4,9,10
+    CONTROL         "gfe",IDC_GO_FILEEND_BUTTON,"Button",BS_OWNERDRAW | WS_TABSTOP,79,4,9,10
+    GROUPBOX        "Note Detection",IDC_STATIC,192,47,75,208,BS_CENTER
+    CTEXT           "Static",IDC_SENSITIVITY_STATIC,206,65,13,8
+    RTEXT           "_",IDC_STATIC,195,97,8,8
+    CONTROL         "",IDC_SENSITIVITY_SLIDER,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,204,75,17,85,WS_EX_CLIENTEDGE
+    CTEXT           "Response",IDC_STATIC,198,165,31,8
+    CTEXT           "Static",IDC_DETAIL_STATIC,235,65,28,8
+    CONTROL         "",IDC_DETAIL_SLIDER1,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,239,75,17,85,WS_EX_CLIENTEDGE
+    LTEXT           "_",IDC_STATIC,258,88,8,8
+    CTEXT           "Detail",IDC_STATIC,239,165,19,8
+    CONTROL         "Boost Source",IDC_BOOST_SOURCE_CHECKBOX,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,203,192,54,8
+    CTEXT           "l",IDC_STATIC,224,214,12,8
+    CONTROL         "",IDC_DETECT_STEREO_BALANCE_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,203,222,52,14,WS_EX_CLIENTEDGE
+    RTEXT           "L",IDC_STATIC,193,225,8,8,0,WS_EX_RIGHT
+    LTEXT           "R",IDC_STATIC,258,225,8,8
+    CTEXT           "Stereo Channels",IDC_STATIC,201,239,55,8
+    GROUPBOX        "Volume",IDC_STATIC,6,47,37,208,BS_CENTER
+    CONTROL         "",IDC_WAV_VOLUME_SLIDER,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,15,65,17,58,WS_EX_STATICEDGE
+    CTEXT           "Music",IDC_STATIC,13,125,23,9
+    CONTROL         "",IDC_MIDI_VOLUMN_SLIDER,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,15,145,17,58,WS_EX_STATICEDGE
+    CTEXT           "Midi",IDC_STATIC,12,205,24,10
+    GROUPBOX        "Midi Source",IDC_STATIC,60,169,116,27,BS_CENTER | WS_GROUP
+    CONTROL         "Detection",IDC_MIDIsource_DETECTION_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,69,183,43,8
+    CONTROL         "NoteList",IDC_MIDIsource_NOTELIST_RADIO,"Button",BS_AUTORADIOBUTTON,126,183,37,8
+    LTEXT           "Midi Instrument",IDC_MIDI_INSTRUMENT_TEXT_STATIC,60,239,102,14,SS_CENTERIMAGE,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         "",IDC_MIDI_INSTRUMENT_SPIN,"msctls_updown32",UDS_WRAP | UDS_ARROWKEYS,166,237,12,18
+    CONTROL         "Mute Midi",IDC_MUTE_MIDI_PLAY_CHECKBOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,229,28,8
+    CONTROL         "",IDC_curPLAY_POSITION_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,7,22,260,16,WS_EX_STATICEDGE
+    RTEXT           "Midi",IDC_STATIC,22,239,14,8
+    CTEXT           "www.CreativeDetectors.com",IDC_CDETECTORS_AD_STATIC,168,3,99,12,SS_CENTERIMAGE | SS_SUNKEN
+    CONTROL         "",IDC_MIDI_SYNC_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,60,207,116,15,WS_EX_CLIENTEDGE
+    LTEXT           "val",IDC_MIDI_SYNC_VALUE_STATIC,139,223,32,8
+    LTEXT           "Midi Advance",IDC_STATIC,92,223,44,8
+END
+
+IDD_SETTINGS_DIALOG DIALOGEX 0, 0, 338, 219
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,238,198,35,14
+    PUSHBUTTON      "Cancel",IDCANCEL,286,198,35,14
+    LTEXT           "Test Zero:",IDC_STATIC,18,184,36,8
+    EDITTEXT        IDC_DETECTION_DETAIL_EDIT,59,181,50,13,ES_AUTOHSCROLL
+    LTEXT           "Play Speed:",IDC_STATIC,13,28,38,8
+    EDITTEXT        IDC_TEST1_EDIT,55,25,30,13,ES_AUTOHSCROLL
+    LTEXT           "SlowDown Algo:",IDC_STATIC,223,107,52,8
+    EDITTEXT        IDC_TEST4_EDIT,277,105,24,13,ES_AUTOHSCROLL
+    LTEXT           "Matching Count:",IDC_STATIC,229,148,55,8
+    EDITTEXT        IDC_TEST2_EDIT,285,145,26,13,ES_AUTOHSCROLL
+    LTEXT           "Filter Size:",IDC_STATIC,229,168,35,8
+    EDITTEXT        IDC_TEST3_EDIT,285,166,26,13,ES_AUTOHSCROLL
+END
+
+IDD_ABOUT_DIALOG_RELEASE DIALOGEX 0, 0, 304, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PitchScope Player"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,267,3,32,14
+    CTEXT           "PitchScope Player Version 1.2",IDC_STATIC,101,8,103,10
+    LTEXT           "PitchScope Player is a shareware application designed to demonstrate some of the pitch-detecting and musical transcription capabilities of our flagship product, PitchScope Navigator. ",IDC_STATIC,11,50,284,26
+    LTEXT           "PitchScope Navigator can also play and note-detect songs at various Slowed-Down Speeds, which increases the detail and accuracy of note detection. Navigator can also create NoteLists and has enhanced animation displays that show upcoming notes.",IDC_STATIC,11,80,278,26
+    LTEXT           "Notelists can be modified in a graphic editor, printed out, played at various speeds via Windows Midi Synthesizer, and can be saved and reloaded from hard disk. For more information about PitchScope products, go to  www.CreativeDetectors.com",IDC_STATIC,11,111,277,25
+    CTEXT           "Copyright  (C) 2012    Creative Detectors",IDC_STATIC,89,166,132,8
+    LTEXT           "This computer program is protected by copyright laws and international treaties.",IDC_STATIC,11,218,260,8
+    CTEXT           "PO Box  395",IDC_STATIC,88,176,131,8
+    CTEXT           "Clearlake, CA  95422-0395",IDC_STATIC,92,185,128,8
+    CTEXT           "www.CreativeDetectors.com",IDC_STATIC,88,199,133,8
+    LTEXT           "GNU Licence",IDC_EDITION_NUMBER_STATIC,96,29,131,8,SS_CENTERIMAGE
+    LTEXT           "PitchScope Player was designed and built by James Paul Millard (dba Creative Detectors of California).",IDC_STATIC,11,143,282,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Creative Detectors"
+            VALUE "FileDescription", "Pitch-Detecting MP3 Player"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PitchPlayer.exe"
+            VALUE "LegalCopyright", "(c) 2012  Creative Detectors.  All rights reserved."
+            VALUE "OriginalFilename", "PitchPlayer.exe"
+            VALUE "ProductName", "PitchScope Player"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 312
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 223
+    END
+
+    IDD_PITCHPLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 270
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_SETTINGS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 334
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_ABOUT_DIALOG_RELEASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 299
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 232
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GFSU                    BITMAP                  "..\\dialogsshared\\gotoFileStart.bmp"
+PYBU                    BITMAP                  "..\\dialogsshared\\playBackwards.bmp"
+PAPU                    BITMAP                  "..\\dialogsshared\\pausePlay.bmp"
+PYFU                    BITMAP                  "..\\dialogsshared\\playForward.bmp"
+GFEU                    BITMAP                  "..\\dialogsshared\\gotoFilesEnd.bmp"
+IDB_FONTS_6_BITMAP      BITMAP                  "..\\dialogsshared\\bitmapPlayer_Font6.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_DIALOGS_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open Music File",             ID_FILE_OPEN_mainDialog
+        MENUITEM SEPARATOR
+        MENUITEM "Open NoteList File",          ID_FILE_LOADNOTELIST
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_APP_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Help Topics",                 ID_HELP
+        MENUITEM "About PitchScope Player",     ID_HELP_ABOUTPITCHSCOPEPLAYER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About PitchScope Player..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\PitchPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
