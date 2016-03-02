@@ -12,8 +12,8 @@
 
 
 
-
-//   #include "d3dtypesJM.h"      //  Sloppy JPM  patch      2005JPM   Fixed below with additional definitions 
+//  #include <d3dtypes.h>    OMITED from VS2005    3/07		
+#include "d3dtypesJM.h"      //  Sloppy JPM  patch      2005JPM   ...I renamed this file
 
 
 
@@ -34,131 +34,6 @@ DEFINE_GUID(CLSID_DirectSound, 0x47d4d946, 0x62e8, 0x11cf, 0x93, 0xbc, 0x44, 0x4
 
 // DirectSound Capture Component GUID {B0210780-89CD-11d0-AF08-00A0C925CD16}
 DEFINE_GUID(CLSID_DirectSoundCapture, 0xb0210780, 0x89cd, 0x11d0, 0xaf, 0x8, 0x0, 0xa0, 0xc9, 0x25, 0xcd, 0x16);
-
-
-
-
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////  INSERT code from  d3dtypes.h to keep compiler happy   ///////////////////////////////////
-
-
-typedef float D3DVALUE, *LPD3DVALUE;
-
-
-
-typedef struct _D3DVECTOR {
-    union {
-    D3DVALUE x;
-    D3DVALUE dvX;
-    };
-    union {
-    D3DVALUE y;
-    D3DVALUE dvY;
-    };
-    union {
-    D3DVALUE z;
-    D3DVALUE dvZ;
-    };
-#if(DIRECT3D_VERSION >= 0x0500)
-#if (defined __cplusplus) && (defined D3D_OVERLOADS)
-
-public:
-
-    // =====================================
-    // Constructors
-    // =====================================
-
-    _D3DVECTOR() { }
-    _D3DVECTOR(D3DVALUE f);
-    _D3DVECTOR(D3DVALUE _x, D3DVALUE _y, D3DVALUE _z);
-    _D3DVECTOR(const D3DVALUE f[3]);
-
-    // =====================================
-    // Access grants
-    // =====================================
-
-    const D3DVALUE&operator[](int i) const;
-    D3DVALUE&operator[](int i);
-
-    // =====================================
-    // Assignment operators
-    // =====================================
-
-    _D3DVECTOR& operator += (const _D3DVECTOR& v);
-    _D3DVECTOR& operator -= (const _D3DVECTOR& v);
-    _D3DVECTOR& operator *= (const _D3DVECTOR& v);
-    _D3DVECTOR& operator /= (const _D3DVECTOR& v);
-    _D3DVECTOR& operator *= (D3DVALUE s);
-    _D3DVECTOR& operator /= (D3DVALUE s);
-
-    // =====================================
-    // Unary operators
-    // =====================================
-
-    friend _D3DVECTOR operator + (const _D3DVECTOR& v);
-    friend _D3DVECTOR operator - (const _D3DVECTOR& v);
-
-
-    // =====================================
-    // Binary operators
-    // =====================================
-
-    // Addition and subtraction
-        friend _D3DVECTOR operator + (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-        friend _D3DVECTOR operator - (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-    // Scalar multiplication and division
-        friend _D3DVECTOR operator * (const _D3DVECTOR& v, D3DVALUE s);
-        friend _D3DVECTOR operator * (D3DVALUE s, const _D3DVECTOR& v);
-        friend _D3DVECTOR operator / (const _D3DVECTOR& v, D3DVALUE s);
-    // Memberwise multiplication and division
-        friend _D3DVECTOR operator * (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-        friend _D3DVECTOR operator / (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-
-    // Vector dominance
-        friend int operator < (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-        friend int operator <= (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-
-    // Bitwise equality
-        friend int operator == (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-
-    // Length-related functions
-        friend D3DVALUE SquareMagnitude (const _D3DVECTOR& v);
-        friend D3DVALUE Magnitude (const _D3DVECTOR& v);
-
-    // Returns vector with same direction and unit length
-        friend _D3DVECTOR Normalize (const _D3DVECTOR& v);
-
-    // Return min/max component of the input vector
-        friend D3DVALUE Min (const _D3DVECTOR& v);
-        friend D3DVALUE Max (const _D3DVECTOR& v);
-
-    // Return memberwise min/max of input vectors
-        friend _D3DVECTOR Minimize (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-        friend _D3DVECTOR Maximize (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-
-    // Dot and cross product
-        friend D3DVALUE DotProduct (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-        friend _D3DVECTOR CrossProduct (const _D3DVECTOR& v1, const _D3DVECTOR& v2);
-
-#endif
-#endif /* DIRECT3D_VERSION >= 0x0500 */
-} D3DVECTOR, *LPD3DVECTOR;
-
-
-//////////////////////////////   INSERT code from  d3dtypes.h to keep compiler happy   ///////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
 
 //
 // Structures
